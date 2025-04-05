@@ -1,0 +1,12 @@
+Szanowni Państwo,
+
+Zapraszamy do zapoznania się z raportem o stanie bezpieczeństwa cyberprzestrzeni uczelni publicznych w Polsce.
+Przedstawione są nowe metody ataków jakie stosują cyberprzestępcy oraz informacje jak skutecznie się przed nimi chronić.
+
+Raport publikowany jest w celu podnoszenia świadomości użytkowników o aktualnych zagrożeniach i podatnościach, a także skutkach ich ewentualnego wystąpienia dla systemów teleinformatycznych. Ujęte w Raporcie informacje, w tym dane statystyczne, mają dostarczyć wiedzy niezbędnej dla procesów planowania i wdrażania w instytucjach rozwiązań przyczyniających się do podwyższenia odporności jawnych systemów teleinformatycznych.
+
+Cały raport z uwzględnieniem poszczególnych uczelni oraz zgłoszonych incydentów i nowych metod ataków znajduje się pod adresem:
+<a href="link">link</a>
+
+Z poważaniem
+Zespół Reagowania na Naruszenia Cyberbezpieczeństwa Uczelni Publicznych
