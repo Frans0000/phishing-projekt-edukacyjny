@@ -120,3 +120,7 @@ Po dodaniu domeny w Mailgun, otrzymasz zestaw rekordów (np. `TXT`, `MX`, `CNAME
 Po poprawnym dodaniu, Mailgun sam zweryfikuje domenę i będzie gotowe do wysyłki.
 
 ---
+
+## Preview strony z komunikatem
+![image](https://github.com/user-attachments/assets/efce5e29-26df-49da-9598-0f5b03babdcf)
+
