@@ -1,8 +1,8 @@
 import requests
 import re
 
-API_KEY = "your-api"
-DOMAIN = "your-domain"
+API_KEY = "your-api" <!--edit-->
+DOMAIN = "your-domain" <!--edit-->
 URL = f"https://api.eu.mailgun.net/v3/{DOMAIN}/messages"
 
 # wczytanie adresów e-mail
@@ -19,8 +19,8 @@ html_content = f"""
 <html>
     <body>
         <p>{mail_content}</p>
-        <a href="https://cyberbezpieczenstwo-edu.pl">
-            <img src="https://i.ibb.co/0L5d76v/Projekt-bez-nazwy.png" alt="Stopka" border="0" style="max-width: 100%;">
+        <a href="your-domain"> <!--edit-->
+            <img src="https://i.ibb.co[link]" alt="Stopka" border="0" style="max-width: 100%;"> <!--edit stopke maila np. korzystajac z i.ibb-->
         </a>
     </body>
 </html>
@@ -33,11 +33,11 @@ for email in email_list:
         URL,
         auth=("api", API_KEY),
         data={
-            "from": "noreply@cyberbezpieczenstwo-edu.pl",
+            "from": "your-subject", <!--edit-->
             "to": email,
-            "subject": "Pilne: Obowiązkowe szkolenie z zakresu bezpieczeństwa IT w związku z atakami phishingowymi",
+            "subject": "your-subject", <!--edit-->
             "text": mail_content,  # Treść w wersji tekstowej
-            #"html": html_content,  # Treść w wersji HTML z obrazkiem
+            "html": html_content,  # Treść w wersji HTML ze stopka
             "o:tracking": "yes",  # śledzenia otwarć
             "o:tag": "test"  # tagu dla raportów
         }
